@@ -1,0 +1,396 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Store_Udacity",
+    "collectionId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+    "dateExported": "2024-07-06T06:08:15.277Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b72b6f11-87a3-4c1e-9179-98a91f33566a",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "add to order",
+            "url": "{{baseURL}}/orders",
+            "method": "POST",
+            "sortNum": 11250,
+            "created": "2024-06-04T16:30:21.495Z",
+            "modified": "2024-07-03T14:40:19.209Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\": 1,\n  \"status\": \"active\",\n  \"products\": [\n    {\n      \"product_id\": 1,\n      \"quantity\": 1\n    }\n  ]\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "c55e5992-630c-47de-872e-bd1d9833ec1d",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "completed Order",
+            "url": "{{baseURL}}/completedOrder",
+            "method": "PUT",
+            "sortNum": 12500,
+            "created": "2024-06-09T05:23:45.254Z",
+            "modified": "2024-06-09T13:37:22.146Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\": 1\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "8ffca3bc-d056-4207-a017-93fd376eef35",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "orders",
+            "url": "{{baseURL}}/orders",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-06-04T17:19:55.260Z",
+            "modified": "2024-06-06T15:14:55.091Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "36ff3433-7caa-4146-a770-c4a71325957d",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "create user",
+            "url": "{{baseURL}}/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-04T16:48:42.966Z",
+            "modified": "2024-07-02T15:09:41.902Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"QuangNM\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "79d8497b-f482-4005-ae94-2ff5b31272bd",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get order",
+            "url": "{{baseURL}}/orders/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-06-06T15:15:07.933Z",
+            "modified": "2024-07-02T15:10:57.000Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "c55b2051-69bb-4542-ad06-ce0f94809bd6",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get all user",
+            "url": "{{baseURL}}/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-04T17:06:06.100Z",
+            "modified": "2024-06-04T17:06:58.922Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "36b82896-6b9b-4317-83a6-6429dd5ab864",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get order by user",
+            "url": "{{baseURL}}/orderByUser",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-06-06T15:15:39.917Z",
+            "modified": "2024-06-06T15:21:02.545Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "a846d230-0c47-4b16-9da7-e2d9c537264b",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get one user",
+            "url": "{{baseURL}}/users/5",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-04T17:06:10.395Z",
+            "modified": "2024-06-04T17:12:02.000Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "fa969956-4821-480b-ac72-42919520af77",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "delete order ",
+            "url": "{{baseURL}}/orders/5",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2024-06-06T15:16:18.077Z",
+            "modified": "2024-06-06T15:16:18.077Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "7cf3d0d1-08c0-49d8-ac26-5f18dacfa626",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "authen",
+            "url": "{{baseURL}}/users/authenticate",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-04T17:07:25.779Z",
+            "modified": "2024-06-08T10:34:31.154Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"QuangNM\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "71787f18-d9a2-44e2-8d2a-993eba78bed4",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "delete user",
+            "url": "{{baseURL}}/users/5",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-06T15:07:50.445Z",
+            "modified": "2024-06-06T15:08:05.580Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"Nguyễn\",\n  \"firstName\": \"Quang\",\n  \"userName\": \"quangnm33\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "83e82b73-1258-472e-bb72-cf25d4a77d21",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "add product",
+            "url": "{{baseURL}}/products",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-06-04T17:23:04.451Z",
+            "modified": "2024-07-02T15:10:44.592Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Nho\",\n  \"price\": \"6\",\n  \"category\": \"Hoa Quả\"\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "01338966-ddcb-46fc-ab14-c98ce14ae77e",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "list products",
+            "url": "{{baseURL}}/products",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-06-04T17:26:26.908Z",
+            "modified": "2024-06-04T17:26:49.850Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hoa Quả\",\n  \"price\": \"2\",\n  \"category\": \"quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "b93ed53d-c7e9-45a9-885e-fca17138ef60",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "update product",
+            "url": "{{baseURL}}/products/3",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-06-08T09:59:45.747Z",
+            "modified": "2024-06-09T13:59:34.142Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Táo 2\",\n  \"price\": 2,\n  \"category\": \"Hoa Quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "59d47aa9-7d83-490a-8118-d3abc0b86a43",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "list products category",
+            "url": "{{baseURL}}/getProductByCategory?category=",
+            "method": "GET",
+            "sortNum": 85000,
+            "created": "2024-06-06T15:42:11.958Z",
+            "modified": "2024-06-06T15:49:43.777Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "category",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hoa Quả\",\n  \"price\": \"2\",\n  \"category\": \"quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "ebcddd12-591d-48e3-8ae4-52277ad43e12",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get one product",
+            "url": "{{baseURL}}/products/3",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-06-04T17:27:10.436Z",
+            "modified": "2024-06-04T17:27:21.431Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hoa Quả\",\n  \"price\": \"2\",\n  \"category\": \"quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "b6d81ba8-d843-4026-9be1-0ca718a6f4e1",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "delete product",
+            "url": "{{baseURL}}/products/2",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2024-06-04T17:27:30.452Z",
+            "modified": "2024-06-08T12:17:14.310Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hoa Quả\",\n  \"price\": \"2\",\n  \"category\": \"quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "8d6bd16a-b391-44b3-b0f3-71ffc72dc1b4",
+            "colId": "946ae674-1b1d-47f9-adcc-f8789ba01f61",
+            "containerId": "",
+            "name": "get one product",
+            "url": "{{baseURL}}/products/2",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-06-04T17:27:33.476Z",
+            "modified": "2024-06-09T13:49:01.322Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Hoa Quả\",\n  \"price\": \"2\",\n  \"category\": \"quả\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        }
+    ],
+    "ref": "qp5mCNpUUdBvLVq4a4Ukei7Nt4SdhuE6cUPiDaD2lorQnK2GSrMrYO-XrYfK63u8tbDiXJae4oQsru3S69iCCA"
+}
